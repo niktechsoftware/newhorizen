@@ -4,13 +4,17 @@
 <div class="row mb-5">
 <div class="col-md-3">
 <div class="ftco-footer-widget mb-4">
-<h2><a class="navbar-brand" href="<?php echo base_url();?>assets/index.html"><i class="flaticon-university"></i>Genius <br><small>University</small></a></h2>
+<h2><a class="navbar-brand" href="<?php echo base_url();?>index.php/welcome"><i class="flaticon-university"></i>NEW HORIZON <br><small>ACADEMY</small></a></h2>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 </ul>
+<!-- hitwebcounter Code START -->
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-8z1yADA36a127Db3-92.gif' border='0'
+ alt='web counter free'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=8z1yADA36a127Db3'></script>
+</div> 
 </div>
 </div>
 <div class="col-md-4">
@@ -44,11 +48,11 @@
 <div class="ftco-footer-widget mb-4 ml-md-4">
 <h2 class="ftco-heading-2">Site Links</h2>
 <ul class="list-unstyled">
-<li><a href="#" class="py-2 d-block">Home</a></li>
-<li><a href="#" class="py-2 d-block">About</a></li>
-<li><a href="#" class="py-2 d-block">Courses</a></li>
-<li><a href="#" class="py-2 d-block">Students</a></li>
-<li><a href="#" class="py-2 d-block">Video</a></li>
+<li><a href="<?php echo base_url();?>index.php/welcome" class="py-2 d-block">Home</a></li>
+<li><a href="<?php echo base_url();?>index.php/welcome/about" class="py-2 d-block">About</a></li>
+<li><a href="<?php echo base_url();?>index.php/welcome/courses" class="py-2 d-block">Courses</a></li>
+<li><a href="<?php echo base_url();?>index.php/welcome/about" class="py-2 d-block">Students</a></li>
+<li><a href="<?php echo base_url();?>index.php/welcome/about" class="py-2 d-block">Video</a></li>
 </ul>
 </div>
 </div>
@@ -67,9 +71,7 @@
 </div>
 <div class="row">
 <div class="col-md-12 text-center">
-<p>
-Copyright &copy;<script data-cfasync="false" src="<?php echo base_url();?>assets/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="3a3007d7b328d85f1a65c06c-text/javascript">document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="<?php echo base_url();?>assets/https://colorlib.com/" target="_blank">Colorlib</a>
-</p>
+<div class="mapouter"><div class="gmap_canvas"><iframe width="183" height="96" id="gmap_canvas" src="https://maps.google.com/maps?q=%20New%20horizon%20academy%20gha&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:96px;width:183px;}.gmap_canvas {overflow:hidden;background:none!important;height:96px;width:183px;}</style></div>
 </div>
 </div>
 </div>

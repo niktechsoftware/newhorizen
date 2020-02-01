@@ -25,6 +25,30 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('about_us');
 	}
+	public function teachers()
+	{
+		$this->load->view('teachers');
+	}
+	public function courses()
+	{
+		$this->load->view('courses');
+	}
+	public function events()
+	{
+		$this->load->view('events');
+	}
+	public function contect()
+	{
+		$this->load->view('contect');
+	}
+	public function apply()
+	{
+		$this->load->view('apply');
+	}
+	public function galary()
+	{
+		$this->load->view('galary');
+	}
 }
 
 /* End of file welcome.php */

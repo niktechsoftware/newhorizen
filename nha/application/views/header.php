@@ -39,7 +39,7 @@
 <li class="nav-item active"><a href="<?php echo base_url();?>index.php/welcome/courses" class="nav-link">Courses</a></li>
 <li class="nav-item active"><a href="<?php echo base_url();?>index.php/welcome/teachers" class="nav-link">Teacher</a></li>
 <li class="nav-item active"><a href="<?php echo base_url();?>index.php/welcome/events" class="nav-link">Events</a></li>
-<li class="nav-item active"><a href="<?php echo base_url();?>index.php/welcome/galary" class="nav-link">Galary</a></li>
+<li class="nav-item active"><a href="<?php echo base_url();?>index.php/welcome/gallery" class="nav-link">Gallery</a></li>
 <li class="nav-item active"><a href="<?php echo base_url();?>index.php/welcome/contect" class="nav-link">Contact</a></li>
 <li class="nav-item cta"><a href="<?php echo base_url();?>index.php/welcome/apply" class="nav-link"><span>Apply Now!</span></a></li>
 </ul>

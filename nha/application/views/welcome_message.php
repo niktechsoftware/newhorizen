@@ -1,47 +1,97 @@
 <?php $this->load->view("header");?>
 
-<div id="demo" class="carousel slide" data-ride="carousel"data-interval="3000">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
-    <li data-target="#demo" data-slide-to="4"></li>
-  </ul>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="<?php echo base_url();?>assets/images/nha8.jpeg"alt="Los Angeles"width="100%"height="500px;">
+<div class="container-fluied">
+    <div class="row">
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel"data-interval="3000">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                <li data-target="#carousel-example-2" data-slide-to="3"></li>
+                <li data-target="#carousel-example-2" data-slide-to="4"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100 " src="<?php echo base_url();?>assets/images/nha_3.jpg"
+                            alt="First slide" height="600px">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive"></h3>
+                        <p style="font-family:Average">Chemistry Lab</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="<?php echo base_url();?>assets/images/nha_10.jpg"
+                            alt="Second slide" height="600px">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive"></h3>
+                        <p style="font-family:Average">Science Lab</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="<?php echo base_url();?>assets/images/nha_9.jpg"
+                            alt="Second slide" height="600px">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive"></h3>
+                        <p style="font-family:Average">Science Lab</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="<?php echo base_url();?>assets/images/nha_8.jpg"
+                            alt="Second slide" height="600px">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive"></h3>
+                        <p style="font-family:Average">Biology Lab</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="<?php echo base_url();?>assets/images/nha_1.jpg"
+                            alt="Third slide" height="600px">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive"></h3>
+                        <p style="font-family:Average">Science Lab</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only" style="font-family:Average">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only" style="font-family:Average">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
     </div>
-    <div class="carousel-item">
-      <img src="<?php echo base_url();?>assets/images/nha5.jpeg" alt="Chicago"width="100%"height="500px;">
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo base_url();?>assets/images/nha3.jpeg" alt="New York"width="100%"height="500px;">
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo base_url();?>assets/images/nha9.jpeg" alt="New York"width="100%"height="500px;">
-    </div>
-    <div class="carousel-item">
-      <img src="<?php echo base_url();?>assets/images/nha6.jpeg" alt="New York"width="100%"height="500px;">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
 
 </div>
-
-
-</section>
+</div>
 <section class="ftco-section">
     <div class="container">
         <div class="row">
@@ -50,9 +100,9 @@
                     <div class="icon d-flex justify-content-center align-items-center mb-3"><span
                             class="flaticon-exam"></span></div>
                     <div class="media-body px-3">
-                        <h3 class="heading">Admission</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
+                        <h3 class="heading"style="font-family:Average">Admission</h3>
+                        <p style="font-family:Average">Admission open Pre- Nursery To 8th Class Smart Class Rooms,Games,
+                            Innovative Teaching, Van Facility.</p>
                     </div>
                 </div>
             </div>
@@ -61,8 +111,8 @@
                     <div class="icon d-flex justify-content-center align-items-center mb-3"><span
                             class="flaticon-blackboard"></span></div>
                     <div class="media-body px-3">
-                        <h3 class="heading">Notice Board</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        <h3 class="heading"style="font-family:Average">Notice Board</h3>
+                        <p style="font-family:Average">Even the all-powerful Pointing has no control about the blind texts it is an almost
                             unorthographic.</p>
                     </div>
                 </div>
@@ -72,21 +122,21 @@
                     <div class="icon d-flex justify-content-center align-items-center mb-3"><span
                             class="flaticon-books"></span></div>
                     <div class="media-body px-3">
-                        <h3 class="heading">Our Library</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
+                        <h3 class="heading"style="font-family:Average">Our Library</h3>
+                        <p style="font-family:Average">A library is a curated collection of sources of information and similar resources, selected
+                            by experts.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="ftco-section-3 img" style="background-image: url(<?php echo base_url();?>assets/images/bg_3.jpg);">
+<section class="ftco-section-3 img" style="background-image: url(<?php echo base_url();?>assets/images/nha_3.jpg);">
     <div class="overlay"></div>
     <div class="container">
         <div class="row d-md-flex justify-content-center">
             <div class="col-md-9 about-video text-center">
-                <h2 class="ftco-animate">New Horizon Academy is a Leading Schools Around the World</h2>
+                <h2 class="ftco-animate"style="font-family:Average">New Horizon Academy is a Leading Schools Around the Ghazipur</h2>
                 <div class="video d-flex justify-content-center">
                     <a href="<?php echo base_url();?>assets/https://vimeo.com/45830194"
                         class="button popup-vimeo d-flex justify-content-center align-items-center"><span
@@ -105,7 +155,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <strong class="number" data-number="10300">0</strong>
-                                <span>Satisfied Students</span>
+                                <span style="font-family:Average">Satisfied Students</span>
                             </div>
                         </div>
                     </div>
@@ -113,7 +163,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <strong class="number" data-number="7896">0</strong>
-                                <span>Courses Completed</span>
+                                <span style="font-family:Average">Courses Completed</span>
                             </div>
                         </div>
                     </div>
@@ -121,7 +171,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <strong class="number" data-number="400">0</strong>
-                                <span>Experts Advisors</span>
+                                <span style="font-family:Average">Experts Advisors</span>
                             </div>
                         </div>
                     </div>
@@ -129,7 +179,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <strong class="number" data-number="200">0</strong>
-                                <span>Schools</span>
+                                <span style="font-family:Average">Schools</span>
                             </div>
                         </div>
                     </div>
@@ -142,7 +192,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
-                <h2 class="mb-4">What Our Student Says</h2>
+                <h2 class="mb-4"style="font-family:Average">What Our Student Says</h2>
             </div>
         </div>
         <div class="row">
@@ -157,11 +207,10 @@
                                 </span>
                             </div>
                             <div class="text">
-                                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                    right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="name">Dennis Green</p>
-                                <span class="position">CSE Student</span>
+                                <p class="mb-5"style="font-family:Average">The faculty and staff at New Horizon Academy are very supportive. My experience here has been really 
+                                    wonderful. My journey here has put me through many ups and downs and the staff at New Horizon Academy helped me.</p>
+                                <p class="name"style="font-family:Average">Mohit Sharma</p>
+                                <span class="position"style="font-family:Average">CSE Student</span>
                             </div>
                         </div>
                     </div>
@@ -174,11 +223,10 @@
                                 </span>
                             </div>
                             <div class="text">
-                                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                    right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="name">Dennis Green</p>
-                                <span class="position">Math Student</span>
+                                <p class="mb-5"style="font-family:Average">New Horizon Academy has been a home of wide-open opportunities for me since I got here. It has also been a 
+                                    life changing school. New Horizon Academy is a family where parents and friends are all around you.</p>
+                                <p class="name"style="font-family:Average">Awantika chaturvedi</p>
+                                <span class="position"style="font-family:Average">Math Student</span>
                             </div>
                         </div>
                     </div>
@@ -191,11 +239,11 @@
                                 </span>
                             </div>
                             <div class="text">
-                                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                    right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="name">Dennis Green</p>
-                                <span class="position">Science Students</span>
+                                <p class="mb-5"style="font-family:Average">My experience at  New Horizon Academy is typified by the unparalleled support I received 
+                                    from my Director of Studies, Tutor and the fantastic friends I have made over the past three years. It has also been a 
+                                    life changing school</p>
+                                <p class="name"style="font-family:Average">Anamol Dixit</p>
+                                <span class="position"style="font-family:Average">Science Students</span>
                             </div>
                         </div>
                     </div>
@@ -208,11 +256,11 @@
                                 </span>
                             </div>
                             <div class="text">
-                                <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-                                    right at the coast of the Semantics, a large language ocean.</p>
-                                <p class="name">Dennis Green</p>
-                                <span class="position">English Student</span>
+                                <p class="mb-5"style="font-family:Average">I am a eight class student. I chose New Horizon Academy because I wanted a new experience  
+                                    and studying seemed like a good idea.My experience here has been really 
+                                    wonderful.The best thing is that you'e easy access teachers.</p>
+                                <p class="name"style="font-family:Average">Prabhat Kumar</p>
+                                <span class="position"style="font-family:Average">English Student</span>
                             </div>
                         </div>
                     </div>
@@ -225,7 +273,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
-                <h2 class="mb-4">Our Experience Advisor</h2>
+                <h2 class="mb-4"style="font-family:Average">Our Experience Advisor</h2>
             </div>
         </div>
         <div class="row">
@@ -235,8 +283,9 @@
                         <div class="img"
                             style="background-image: url(<?php echo base_url();?>assets/images/person_1.jpg);"></div>
                         <div class="info ml-4">
-                            <h3><a href="<?php echo base_url();?>assets/teacher-single.html">Mr.Raj Narain Tripathi</a></h3>
-                            <span class="position">Chair Person</span>
+                            <h3><a href="<?php echo base_url();?>assets/teacher-single.html"style="font-family:Average">Mr.Raj Narain Tripathi</a>
+                            </h3>
+                            <span class="position"style="font-family:Average">Chair Person</span>
                             <p class="ftco-social d-flex">
                                 <a href="#" class="d-flex justify-content-center align-items-center"><span
                                         class="icon-twitter"></span></a>
@@ -248,8 +297,9 @@
                         </div>
                     </div>
                     <div class="text">
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
+                        <p style="font-family:Average">We provide the best possible learning environment for children during their most formative
+                            years. -
+                            Mr.Raj Narain Tripathi, Chair Person</p>
                     </div>
                 </div>
             </div>
@@ -259,8 +309,9 @@
                         <div class="img"
                             style="background-image: url(<?php echo base_url();?>assets/images/person_2.jpg);"></div>
                         <div class="info ml-4">
-                            <h3><a href="<?php echo base_url();?>assets/teacher-single.html">Dr.J.S. Rai (M.B.B.S.)</a></h3>
-                            <span class="position">Executive Chair Preson</span>
+                            <h3><a href="<?php echo base_url();?>assets/teacher-single.html"style="font-family:Average">Dr.J.S. Rai (M.B.B.S.)</a>
+                            </h3>
+                            <span class="position"style="font-family:Average">Executive Chair Preson</span>
                             <p class="ftco-social d-flex">
                                 <a href="#" class="d-flex justify-content-center align-items-center"><span
                                         class="icon-twitter"></span></a>
@@ -272,8 +323,9 @@
                         </div>
                     </div>
                     <div class="text">
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
+                        <p style="font-family:Average">Children learn more quickly during their early years than at any other time in life.
+                             They need love and nurturing a sense of trust and security
+                        -Dr.J.S. Rai,Executive Chair Preson </p>
                     </div>
                 </div>
             </div>
@@ -283,7 +335,8 @@
                         <div class="img"
                             style="background-image: url(<?php echo base_url();?>assets/images/person_3.jpg);"></div>
                         <div class="info ml-4">
-                            <h3><a href="<?php echo base_url();?>assets/teacher-single.html">Mr.Sacchidanad Sharma</a></h3>
+                            <h3><a href="<?php echo base_url();?>assets/teacher-single.html">Mr.Sacchidanad Sharma</a>
+                            </h3>
                             <span class="position">Voice Chair Person</span>
                             <p class="ftco-social d-flex">
                                 <a href="#" class="d-flex justify-content-center align-items-center"><span
@@ -296,8 +349,9 @@
                         </div>
                     </div>
                     <div class="text">
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
+                        <p style="font-family:Average">Early experiences provide the base for the brain's organizational development and functioning throughout life.-
+                        Mr.Sacchidanad Sharma,Voice Chair Person 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -310,12 +364,14 @@
             <div class="col-md-12">
                 <div class="d-flex align-items-center">
                     <div class="free-trial ftco-animate">
-                        <h3>Try our free trial course</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life</p>
+                        <h3 style="font-family:Average">Try our free trial course</h3>
+                        <p style="font-family:Average">Free Trials let you see and complete all course content, so you can start a course as soon as
+                            your free trial
+                            begins</p>
                     </div>
                     <div class="btn-join ftco-animate">
-                        <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary py-3 px-4">Join now!</a></p>
+                        <p><a href="<?php echo base_url();?>index.php/welcome/apply"
+                                class="btn btn-primary py-3 px-4"style="font-family:Average">Join now!</a></p>
                     </div>
                 </div>
             </div>
@@ -326,129 +382,72 @@
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
-                <h2 class="mb-4">Our Courses</h2>
+                <h2 class="mb-4"style="font-family:Average">Our Courses</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="course align-self-stretch">
                     <a href="#" class="img"
-                        style="background-image: url(<?php echo base_url();?>assets/images/course-1.jpg)"></a>
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_3.jpg)"></a>
                     <div class="text p-4">
-                        <p class="category"><span>English</span></p>
-                        <h3 class="mb-3"><a href="#">English for Tommorow</a></h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
-                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+                        <p class="category"><span style="font-family:Average">Science</span></p>
+                        <h3 class="mb-3"><a href="#" style="font-family:Average">Science for Tommorow</a></h3>
+                        <p style="font-family:Average">Here we are going to provide career counselling guidance for the students who wish to pursue
+                            their career
+                            after 8th in science field.</p><br>
+                        <p style="font-family:Average"><a href="#" class="btn btn-primary">Enroll now!</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="course align-self-stretch">
                     <a href="#" class="img"
-                        style="background-image: url(<?php echo base_url();?>assets/images/course-2.jpg)"></a>
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_15.jpg)"></a>
                     <div class="text p-4">
-                        <p class="category"><span>Science</span></p>
-                        <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
-                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+                        <p class="category"><span style="font-family:Average">Computer Science</span></p>
+                        <h3 class="mb-3"><a href="#"style="font-family:Average">Computer Science</a></h3>
+                        <p style="font-family:Average">Computer Science is the study of computers and computational systems. Unlike electrical and
+                            computer engineers,
+                            computer scientists deal mostly with software.</p>
+                        <p><a href="#" class="btn btn-primary"style="font-family:Average">Enroll now!</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="course align-self-stretch">
                     <a href="#" class="img"
-                        style="background-image: url(<?php echo base_url();?>assets/images/course-3.jpg)"></a>
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_7.jpg)"></a>
                     <div class="text p-4">
-                        <p class="category"><span>Business</span></p>
-                        <h3 class="mb-3"><a href="#">Business Studies</a></h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
-                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+                        <p class="category"><span style="font-family:Average">Biology</span></p>
+                        <h3 class="mb-3"><a href="#"style="font-family:Average">Biologycal</a></h3>
+                        <p style="font-family:Average">Biology is the natural science that studies life and living organisms, including their
+                            physical structure,
+                            physiological mechanisms, development and evolution.</p>
+                        <p><a href="#" class="btn btn-primary"style="font-family:Average">Enroll now!</a></p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center mt-5">
             <div class="col-md-10 ftco-animate">
-                <p><strong>When she reached</strong> the first hills of the Italic Mountains, she had a last view back
-                    on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of
-                    her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her
-                    way.</p>
-                <p><span>Just Browsing?</span><a href="<?php echo base_url();?>index.php/welcome/courses"> View All Courses</a>
+                <p style="font-family:Average"><strong>When she reached</strong> Education in India follows a uniform structure of academy education
+                    which is known as the Pg to 8th system. This system is being followed by all Indian States and Union
+                    Territories.
+                    But not all of them follow a distinct pattern as per the system.</p>
+                <p style="font-family:Average"><span>Just Browsing?</span><a href="<?php echo base_url();?>index.php/welcome/courses"> View All
+                        Courses</a>
                 </p>
             </div>
         </div>
     </div>
 </section>
-<section class="ftco-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-            <div class="col-md-7 heading-section ftco-animate text-center">
-                <h2 class="mb-4">Recent from blog</h2>
-            </div>
-        </div>
-        <div class="row d-flex">
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="<?php echo base_url();?>assets/blog-single.html" class="block-20"
-                        style="background-image: url('<?php echo base_url();?>assets/images/image_1.jpg');">
-                    </a>
-                    <div class="text p-4 d-block">
-                        <div class="meta mb-3">
-                            <div><a href="#">August 12, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="<?php echo base_url();?>assets/blog-single.html" class="block-20"
-                        style="background-image: url('<?php echo base_url();?>assets/images/image_2.jpg');">
-                    </a>
-                    <div class="text p-4 d-block">
-                        <div class="meta mb-3">
-                            <div><a href="#">August 12, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20"
-                        style="background-image: url('<?php echo base_url();?>assets/images/image_3.jpg');">
-                    </a>
-                    <div class="text p-4 d-block">
-                        <div class="meta mb-3">
-                            <div><a href="#">August 12, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-3"><a href="#">How to standout at start of your UX Career</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="ftco-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
-                <h2 class="mb-4">Our Latest Events</h2>
+                <h2 class="mb-4" style="font-family:Average">Our Latest Events</h2>
             </div>
         </div>
         <div class="row">
@@ -459,15 +458,16 @@
                     </a>
                     <div class="text p-4 d-block">
                         <div class="meta mb-3">
-                            
+
                         </div>
-                       
-                        <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i>Group Activities</span>
-                            <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                        <p>Even when you’re doing something fun with your child, she still might behave in ways you don’t like. For example,
-                             she might complain about the game you’re playing or demand to be go home because she’s bored.
+
+                        <p class="time-loc"><span class="mr-2" style="font-family:Average"><i class=""></i>Group Activities</span>
+                            <span><i class=""></i>Save Water</span></p>
+                        <p style="font-family:Average">Conserving water involves refraining from water pollution. This requires the use of
+                            strategies that includes
+                            reducing wastage, prevent damaging water quality, and improve water management.
                         </p>
-                        <p><a href="<?php echo base_url();?>index.php/welcome/events">Join Event <i
+                        <p style="font-family:Average"><a href="<?php echo base_url();?>index.php/welcome/events">Join Event <i
                                     class="ion-ios-arrow-forward"></i></a></p>
                     </div>
                 </div>
@@ -479,14 +479,16 @@
                     </a>
                     <div class="text p-4 d-block">
                         <div class="meta mb-3">
-                            <div><a href="#">Sep. 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                            <div><a href="#"></a></div>
+                            <div><a href="#" style="font-family:Average">New Horizon Academy</a></div>
+                            <div><a href="#" class="meta-chat"><span class=""></span></a></div>
                         </div>
-                        <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-                        <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span>
-                            <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        <h3 class="heading mb-4"><a href="#"></a></h3>
+                        <p class="time-loc"><span class="mr-2"><i class=""></i></span>
+                            <span style="font-family:Average"><i class=""></i>Group Dance</span></p>
+                        <p>Dance is a performing art form consisting of purposefully selected sequences of human .
+                            A group dance and a corps de ballet, a social partner dance and a pas de deux, differ
+                            profoundly.
                         </p>
                         <p><a href="<?php echo base_url();?>index.php/welcome/events">Join Event <i
                                     class="ion-ios-arrow-forward"></i></a></p>
@@ -500,16 +502,17 @@
                     </a>
                     <div class="text p-4 d-block">
                         <div class="meta mb-3">
-                            <div><a href="#">Sep. 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                            <div><a href="#"></a></div>
+                            <div><a href="#" style="font-family:Average">New Horizon Academy</a></div>
+                            <div><a href="#" class="meta-chat"><span class=""></span></a></div>
                         </div>
-                        <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-                        <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span>
-                            <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        <h3 class="heading mb-4"><a href="#"></a></h3>
+                        <p class="time-loc"><span class="mr-2"><i class=""></i> </span>
+                            <span style="font-family:Average"><i class=""></i> Group Activities</span></p>
+                        <p style="font-family:Average">The main focus of this qualitative study is to address group work as a classroom activity
+                            from the teachers' perspectives
                         </p>
-                        <p><a href="<?php echo base_url();?>index.php/welcome/events">Join Event <i
+                        <p><a href="<?php echo base_url();?>index.php/welcome/events" style="font-family:Average">Join Event <i
                                     class="ion-ios-arrow-forward"></i></a></p>
                     </div>
                 </div>

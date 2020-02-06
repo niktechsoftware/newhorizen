@@ -4,21 +4,23 @@
 
 
 <div class="hero-wrap"
-    style="background-image: url('<?php echo base_url();?>assets/images/bg_1.jpg'); background-attachment:fixed;">
+    style="background-image: url('<?php echo base_url();?>assets/images/nha_3.jpg'); background-attachment:fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate text-center">
-                <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply Now</a>
-                 <a href="<?php echo base_url();?>index.php/welcome/courses"class="btn btn-secondary px-4 py-3">View Courses</a></p>
+                <h1 class="mb-4" style="font-family:Average">No Nation Can Prosper In Life Without Education</h1>
+                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply
+                        Now</a>
+                    <a href="<?php echo base_url();?>index.php/welcome/courses" class="btn btn-secondary px-4 py-3">View
+                        Courses</a></p>
             </div>
         </div>
     </div>
 </div>
 <section class="ftco-section bg-light">
     <div class="container">
-        <h2 align="center">About Academy</h2>
+        <h2 align="center" style="font-family:Average">About Academy</h2>
         <div class="row">
 
             <div class="col-md-4">
@@ -27,37 +29,36 @@
                     Academy"width="304" height="236">
             </div>
             <div class="col-md-8">
-                <p class="justify-content">Academy Sports + Outdoors is one of the nation's largest sporting goods and
-                    outdoor stores.
-                    With more than 250 stores and counting, we offer a broad assortment of quality hunting,
-                    fishing, and camping equipment and gear, along with sports and leisure products, footwear,
-                    apparel and much more.
-
-                    Academy is headquartered out of Katy, TX, a suburb of Houston, TX.
-
-                    Over the last several decades, the company has grown substantially from its small beginnings. Sales
-                    reached one billion dollars in 2004, two billion dollars in 2007, three billion dollars in 2012, and
-                    four billion dollars in 2014. Today, annual sales exceed $4.9 billion.
-
-                    We are currently owned by funds advised by Kohlberg Kravis Roberts & Co. L.P. (together with its
-                    affiliates, "KKR"), a leading global investment firm, and led by Chairman, President and CEO, Ken
-                    Hicks</p>
+                <p class="justify-content" style="font-family:Average">New Horizon Academy selects high quality teachers who have an appreciation
+                    for children,
+                    positive attitude, and love of teaching. We are always looking for dedicated, energetic, passionate
+                    and unique
+                    individuals to join our wonderful team of education professionals to help instill a lifelong love of
+                    learning with
+                    the children in our care.
+                </p>
+                <p class="justify-content" style="font-family:Average">Today, we are operated by many dedicated people. Although we are growing and
+                    serving more
+                    families each year, we will always have family roots, a warm atmosphere, an open door, and a
+                    commitment to excellence</p>
             </div>
         </div>
     </div>
     </div>
 </section>
+<section class="ftco-section-3 img">
+<div class="overlay"></div>
 <div class="container-fluied">
     <div class="row">
         <div class="col-md-12">
-            <div style="background-image:url(<?php echo base_url();?>assets/images/bg_6.jpg);
+            <div style="background-image:url(<?php echo base_url();?>assets/images/bg_.jpg);
          height:auto;background-repeat:no-repeat;background-position:cover;background-attachment:fixed;">
                 <div class="container">
-                    <h2 align="center" class="text-info font-italic">Our-Managing-Committee</h2><br>
+                    <h2 align="center" class="text-info font-italic"style="font-family:Average">Our-Managing-Committee</h2><br>
                     <div class="row">
                         <div class="col-md-3"></div>
                         <div class="col-6">
-                            <table class="table table-hover text-light">
+                            <table class="table table-hover text-light"style="font-family:Average">
                                 <thead>
                                     <tr>
                                         <th>Name:</th>
@@ -180,8 +181,27 @@
         </div>
     </div>
 </div>
-</div>
-
+</section>
+<section class="ftco-section bg-light">
+    <div class="container">
+        <h2 align="left" style="color:tomato;"><i class="flaticon-university"style="font-family:Average">Our Family Welcomes Your Family:</i></h2>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="justify-content" align="left"style="font-family:Average"><strong style="color:tomato;">:-</strong> Entire mission,
+                    philosophy, and practices of New Horizon Academy are devoted to a
+                    commitment to excellence and the development of a healthy sense of self in every child enrolled in
+                    our early education
+                    and child care programs.
+                </p>
+                <p class="justify-content"style="font-family:Average"><strong style="color:tomato;">:-</strong>Our family is delighted to welcome
+                    your family to New Horizon Academy. Childhood may only last a
+                    short while, but we know that while with us, your family will gain many happy memories that will
+                    last a lifetime.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
 
 

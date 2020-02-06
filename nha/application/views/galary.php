@@ -1,10 +1,6 @@
 <?php $this->load->view("header");?>
-
-
-
-
 <div class="hero-wrap"
-    style="background-image: url('<?php echo base_url();?>assets/images/bg_1.jpg'); background-attachment:fixed;">
+    style="background-image: url('<?php echo base_url();?>assets/images/nha_3.jpg'); background-attachment:fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -20,14 +16,120 @@
 </div>
 <section class="ftco-section bg-light">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-            
-         </div>
+
+        <div id="mdb-lightbox-ui"></div>
+
+        <div class="mdb-lightbox no-margin">
+            <div class="row">
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
+                            class="img-fluid">
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+                            class="img-fluid" />
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+                            class="img-fluid" />
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+            </div>
+            <div class="row">
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
+                            class="img-fluid">
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+                            class="img-fluid" />
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+                            class="img-fluid" />
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+            </div>
+            <div class="row">
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
+                            class="img-fluid">
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+                            class="img-fluid" />
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+                <figure class="col-md-4">
+                    <a class="black-text"
+                        href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+                        data-size="1600x1067">
+                        <img alt="picture"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+                            class="img-fluid" />
+                        <h3 class="text-center my-3">Photo title</h3>
+                    </a>
+                </figure>
+
+            </div>
+
         </div>
-    </div>
 
 </section>
+
 <?php $this->load->view("footer");?>
 
 

@@ -1,52 +1,40 @@
 <?php $this->load->view("header");?>
-
-
-
-
 <div class="hero-wrap"
-    style="background-image: url('<?php echo base_url();?>assets/images/bg_1.jpg'); background-attachment:fixed;">
+    style="background-image: url('<?php echo base_url();?>assets/images/nha_3.jpg'); background-attachment:fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate text-center">
-                <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply Now</a> 
-                <a href="<?php echo base_url();?>index.php/welcome/courses"class="btn btn-secondary px-4 py-3">View Courses</a></p>
+                <h1 class="mb-4" style="font-family:Average">No Nation Can Prosper In Life Without Education</h1>
+                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply
+                        Now</a>
+                    <a href="<?php echo base_url();?>index.php/welcome/courses" class="btn btn-secondary px-4 py-3">View
+                        Courses</a></p>
             </div>
         </div>
     </div>
 </div>
 
-<section class="ftco-section" style="background-image:url(<?php echo base_url();?>assets/images/bg_4.jpg);
-         height:auto;background-repeat:no-repeat;background-position:cover;background-attachment:fixed;">
-    <div class="container">
+<section class="ftco-section">
+    <div class="container"style="font-family:Average">
+        <h4 style="color:blue" class="flaticon-university">New Horizon Academy:-</h4>
+        <p class="content-justify" style="color:tomato">1.Nursery to 8th classes</p>
+        <p class="content-justify" style="color:tomato">2.New Horizon Academy follow CBSC pattern</p>
+        <p class="content-justify" style="color:tomato">3.All subjects are available to related class</p>
+        <p class="content-justify" style="color:tomato">4.English,Science,social science,Mathematics,Computer science
+            etc.</p>
         <div class="row">
-
-
-            <div class="col-md-4">
-
-
-                <div class="course align-self-stretch">
-                    <a href="#" class="img"
-                        style="background-image: url(<?php echo base_url();?>assets/images/course-1.jpg)"></a>
-                    <div class="text p-4">
-                        <p class="category"><span>English</span></p>
-                        <h3 class="mb-3"><a href="#">English for Tommorow</a></h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
-                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
-                    </div>
-                </div>
-            </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="course align-self-stretch">
                     <a href="#" class="img"
-                        style="background-image: url(<?php echo base_url();?>assets/images/course-2.jpg)"></a>
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_3.jpg)"></a>
                     <div class="text p-4">
                         <p class="category"><span>Science</span></p>
-                        <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
+                        <h3 class="mb-3"><a href="#">Science for Tommorow</a></h3>
+                        <p>Here we are going to provide career counselling guidance for the students who wish to pursue
+                            their career
+                            after 8th in science field.</p>
+                            <br>
                         <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
                     </div>
                 </div>
@@ -54,66 +42,88 @@
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="course align-self-stretch">
                     <a href="#" class="img"
-                        style="background-image: url(<?php echo base_url();?>assets/images/course-3.jpg)"></a>
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_15.jpg)"></a>
                     <div class="text p-4">
-                        <p class="category"><span>Business</span></p>
-                        <h3 class="mb-3"><a href="#">Business Studies</a></h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name</p>
+                        <p class="category"><span>Computer Science</span></p>
+                        <h3 class="mb-3"><a href="#">Computer Science</a></h3>
+                        <p>Computer Science is the study of computers and computational systems. Unlike electrical and
+                            computer engineers,
+                            computer scientists deal mostly with software.</p>
+                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="course align-self-stretch">
+                    <a href="#" class="img"
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_7.jpg)"></a>
+                    <div class="text p-4">
+                        <p class="category"><span>Biology</span></p>
+                        <h3 class="mb-3"><a href="#">Biologycal</a></h3>
+                        <p>Biology is the natural science that studies life and living organisms, including their
+                            physical structure,
+                            physiological mechanisms, development and evolution.</p>
                         <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-
-
-<div class="col-md-4">
-
-
-    <div class="course align-self-stretch">
-        <a href="#" class="img"
-            style="background-image: url(<?php echo base_url();?>assets/images/course-1.jpg)"></a>
-        <div class="text p-4">
-            <p class="category"><span>English</span></p>
-            <h3 class="mb-3"><a href="#">English for Tommorow</a></h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                unorthographic life One day however a small line of blind text by the name</p>
-            <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
-        </div>
-    </div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-    <div class="course align-self-stretch">
-        <a href="#" class="img"
-            style="background-image: url(<?php echo base_url();?>assets/images/course-2.jpg)"></a>
-        <div class="text p-4">
-            <p class="category"><span>Science</span></p>
-            <h3 class="mb-3"><a href="#">Computer Engineering</a></h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                unorthographic life One day however a small line of blind text by the name</p>
-            <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
-        </div>
-    </div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-    <div class="course align-self-stretch">
-        <a href="#" class="img"
-            style="background-image: url(<?php echo base_url();?>assets/images/course-3.jpg)"></a>
-        <div class="text p-4">
-            <p class="category"><span>Business</span></p>
-            <h3 class="mb-3"><a href="#">Business Studies</a></h3>
-            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                unorthographic life One day however a small line of blind text by the name</p>
-            <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
-        </div>
-    </div>
-</div>
-</div>
     </div>
 </section>
+<section class="ftco-section">
+    <div class="container" style="font-family:Average">
 
+        <div class="row">
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="course align-self-stretch">
+                    <a href="#" class="img"
+                        style="background-image: url(<?php echo base_url();?>assets/images/social_science.jpeg)"></a>
+                    <div class="text p-4">
+                        <p class="category"><span>Social science</span></p>
+                        <h3 class="mb-3"><a href="#">Social science</a></h3>
+                        <p>Social science is the scientific study of human beings. You may think this is impossible.
+                            Professor Iain McLean explores how we define social science and its associated disciplines.
+                        </p>
+                        <br>
+                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="course align-self-stretch">
+                    <a href="#" class="img"
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_15.jpg)"></a>
+                    <div class="text p-4">
+                        <p class="category"><span>Mathematics</span></p>
+                        <h3 class="mb-3"><a href="#">Mathematics</a></h3>
+                        <p>The abstract science of number, quantity, and space, either as abstract concepts ( pure
+                            mathematics ),
+                            or as applied to other disciplines such as physics and engineering ( applied mathematics ).
+                            "a taste for mathematics"</p>
+                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="course align-self-stretch">
+                    <a href="#" class="img"
+                        style="background-image: url(<?php echo base_url();?>assets/images/nha_7.jpg)"></a>
+                    <div class="text p-4">
+                        <p class="category"><span>English</span></p>
+                        <h3 class="mb-3"><a href="#">English</a></h3>
+                        <p>A series of sentences developing into a short piece of writing on a given topic is called a
+                            paragraph
+                            A paragraph includes a topic sentence that introduces the main idea and acts as a starting
+                            point to expand
+                            the idea.</p>
+                            
+                        <p><a href="#" class="btn btn-primary">Enroll now!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

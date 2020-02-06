@@ -45,9 +45,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('apply');
 	}
-	public function galary()
+	public function gallery()
 	{
-		$this->load->view('galary');
+		$this->load->view('gallery');
 	}
 }
 

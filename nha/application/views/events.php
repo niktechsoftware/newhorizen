@@ -4,12 +4,12 @@
 
 
 <div class="hero-wrap"
-    style="background-image: url('<?php echo base_url();?>assets/images/bg_1.jpg'); background-attachment:fixed;">
+    style="background-image: url('<?php echo base_url();?>assets/images/nha_3.jpg'); background-attachment:fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate text-center">
-                <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
+                <h1 class="mb-4"style="font-family:Average">No Nation Can Prosper In Life Without Education</h1>
                 <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply
                         Now</a>
                     <a href="<?php echo base_url();?>index.php/welcome/courses" class="btn btn-secondary px-4 py-3">View
@@ -19,12 +19,58 @@
     </div>
 </div>
 <section class="ftco-section bg-light">
-    <div class="container">
+    <div class="container"style="font-family:Average">
         <div class="row">
-            <div class="col-12">
-                <h2 class="text-center"><strong>General Studies & Quiz Comptation</strong></h2>
-         </div>
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h2 class="text-center" style="color:tomato;"><strong>General Studies & Quiz Comptation</strong></h2>
+                <p class="justify-content" class="text-dark"> Students of the New Horizon Academy receive very good amount of general
+                    knowledge through
+                    materials developed in-house. (No book is prescribed as text book). Rather they study from the rich
+                    in-house developed material drawn from a very rich resource and reference books</p>
+            </div>
         </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <div width="400px" style="" bg-light>
+                    <h4 style="color:tomato;">Gandhi: His life and work.</h4>
+                    <img src="<?php echo base_url();?>assets/images/mahatma_gandhi.jpg" class="rounded" alt="gandhi"
+                        width="350px" height="300px">
+
+                </div>
+            </div>
+            <div class="col-5">
+                <br><br>
+                <p class="text-justify">Gandhi was born on October 2, 1869, at Porbandar. Mohandas or Mohan was youngest
+                    of the three
+                    sons of Putlibai and Karamchand Gandhi. The latter had been Prime Minister successively in three
+                    Kathiawar States.
+                    When in 1917 plague broke out at Kochrab, Gandhi moved his Ashram to Sabarmati.
+                    New Horizon Academy's Students to participate this quiz comptation</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+                <br><br>
+                <p class="text-justify">The student mass mobilisation played a major role during the Indian national
+                    movement.
+                    Since then, the students of India have been “arousing their social, political and economic
+                    consciousness”.
+                    New Horizon Academy's Students to participate this quiz comptation</p>
+            </div>
+            <div class="col-4">
+                <div width="400px" style="" bg-light>
+                    <h4 style="color:tomato;">History</h4>
+                    <img src="<?php echo base_url();?>assets/images/history.jpg" class="rounded" alt="gandhi"
+                        width="350px" height="300px">
+
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 </section>

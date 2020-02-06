@@ -20,73 +20,100 @@
 </div>
 <section class="ftco-section bg-light">
     <div class="container">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 hero-wrap">
-                <!-- Material form register -->
-                <div class="card">
+    
+    <div id="mdb-lightbox-ui"></div>
 
-                    <h5 class="card-header bg-dark white-text text-center">
-                        <strong class="text-light"> Contect</strong>
-                    </h5>
-                    <br>
+    <div class="mdb-lightbox no-margin">
+    <div class="row">
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
+            class="img-fluid">
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
 
-                    <!--Card content-->
-                    <div class="card-body px-lg-5 pt-0">
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+            class="img-fluid" />
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
 
-                        <!-- Form -->
-                        <form class="text-center" style="color: #757575;" action="apply.php">
-                            <div class="form-row">
-                                <div class="col">
-                                    <!-- First name -->
-                                    <div class="md-form">
-                                        <label for="materialRegisterFormFirstName" class="text-info">First name</label>
-                                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <!-- Last name -->
-                                    <div class="md-form">
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+            class="img-fluid" />
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
+            
+         </div>
+         <div class="row">
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
+            class="img-fluid">
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
 
-                                        <label for="materialRegisterFormLastName" class="text-info">Last name</label>
-                                        <input type="text" id="materialRegisterFormLastName" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+            class="img-fluid" />
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
+      
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+            class="img-fluid" />
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
+            
+         </div>
+         <div class="row">
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(121).jpg"
+            class="img-fluid">
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
 
-                            <!-- E-mail -->
-                            <div class="md-form mt-0">
-                                <label for="materialRegisterFormEmail" class="text-info">E-mail</label>
-                                <input type="email" id="materialRegisterFormEmail" class="form-control">
-                            </div>
-
-                            <!-- Phone number -->
-                            <div class="md-form">
-                                <label for="materialRegisterFormPhone" class="text-info">Phone number</label>
-                                <input type="number" id="materialRegisterFormPhone" class="form-control"
-                                    aria-describedby="materialRegisterFormPhoneHelpBlock">
-                            </div>
-                            <!-- Address -->
-                            <div class="md-form">
-                                <label for="materialRegisterFormPhone" class="text-info">Comment</label>
-                                <textarea id="materialRegisterFormPhone" class="form-control"
-                                    aria-describedby="materialRegisterFormPhoneHelpBlock">
-            </textarea>
-                            </div>
-                            <!-- Sign up button -->
-                            <button class="btn btn-outline-dark btn-rounded btn-block my-4 waves-effect z-depth-0 text-light"
-                                type="submit">Submit</button>
-
-                        </form>
-                        <!-- Form -->
-
-                    </div>
-
-                </div>
-                <!-- Material form register -->
-            </div>
-        </div>
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+            class="img-fluid" />
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
+      
+      <figure class="col-md-4">
+        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
+          data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+            class="img-fluid" />
+          <h3 class="text-center my-3">Photo title</h3>
+        </a>
+      </figure>
+            
+         </div>
+        
     </div>
+
 </section>
 
 <?php $this->load->view("footer");?>

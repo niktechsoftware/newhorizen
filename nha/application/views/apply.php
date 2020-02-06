@@ -1,13 +1,15 @@
 <?php $this->load->view("header");?>
 <div class="hero-wrap"
-    style="background-image: url('<?php echo base_url();?>assets/images/bg_1.jpg'); background-attachment:fixed;">
+    style="background-image: url('<?php echo base_url();?>assets/images/nha_3.jpg'); background-attachment:fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate text-center">
-                <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply Now</a>
-                 <a href="<?php echo base_url();?>index.php/welcome/courses"class="btn btn-secondary px-4 py-3">View Courses</a></p>
+                <h1 class="mb-4" style="font-family:Average">No Nation Can Prosper In Life Without Education</h1>
+                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply
+                        Now</a>
+                    <a href="<?php echo base_url();?>index.php/welcome/courses" class="btn btn-secondary px-4 py-3">View
+                        Courses</a></p>
             </div>
         </div>
     </div>
@@ -16,74 +18,78 @@
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6 hero-wrap">
-          <!-- Material form register -->
-<div class="card">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 hero-wrap">
+                <!-- Material form register -->
+                <div class="card">
 
-<h5 class="card-header bg-info white-text text-center">
-    <strong>Sign up</strong>
-</h5>
-<br>
+                    <h5 class="card-header bg-info white-text text-center">
+                        <strong>Registration</strong>
+                    </h5>
+                    <br>
 
-<!--Card content-->
-<div class="card-body px-lg-5 pt-0">
+                    <!--Card content-->
+                    <div class="card-body px-lg-5 pt-0">
 
-    <!-- Form -->
-    <form class="text-center" style="color: #757575;" action="#!">
+                        <!-- Form -->
+                        <form class="text-center" style="color: #757575;" action="apply.php">
 
-        <div class="form-row">
-            <div class="col">
-                <!-- First name -->
-                <div class="md-form">
-                    <label for="materialRegisterFormFirstName" class="text-info">First name</label>
-                    <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                            <div class="form-row">
+                                <div class="col">
+                                    <!-- First name -->
+                                    <div class="md-form">
+                                        <label for="materialRegisterFormFirstName" class="text-info">First name</label>
+                                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Last name -->
+                                    <div class="md-form">
+
+                                        <label for="materialRegisterFormLastName" class="text-info">Last name</label>
+                                        <input type="text" id="materialRegisterFormLastName" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- E-mail -->
+                            <div class="md-form mt-0">
+                                <label for="materialRegisterFormEmail" class="text-info">E-mail</label>
+                                <input type="email" id="materialRegisterFormEmail" class="form-control">
+                            </div>
+
+                            <!-- Phone number -->
+                            <div class="md-form">
+                                <label for="materialRegisterFormPhone" class="text-info">Phone number</label>
+                                <input type="number" id="materialRegisterFormPhone" class="form-control"
+                                    aria-describedby="materialRegisterFormPhoneHelpBlock">
+                            </div>
+                            <!-- Address -->
+                            <div class="md-form">
+                                <label for="materialRegisterFormPhone" class="text-info">Address</label>
+                                <textarea id="materialRegisterFormPhone" class="form-control"
+                                    aria-describedby="materialRegisterFormPhoneHelpBlock">
+            </textarea>
+                            </div>
+
+                            <!-- Newsletter -->
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                                <label class="text-info form-check-label" for="materialRegisterFormNewsletter">I'm
+                                    agree</label>
+                            </div>
+
+                            <!-- Sign up button -->
+                            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0"
+                                type="submit">Submit</button>
+                        </form>
+                        <!-- Form -->
+
+                    </div>
+
                 </div>
+                <!-- Material form register -->
             </div>
-            <div class="col">
-                <!-- Last name -->
-                <div class="md-form">
-                    
-                    <label for="materialRegisterFormLastName"class="text-info">Last name</label>
-                    <input type="text" id="materialRegisterFormLastName" class="form-control">
-                </div>
-            </div>
-        </div>
-
-        <!-- E-mail -->
-        <div class="md-form mt-0">
-            <label for="materialRegisterFormEmail"class="text-info">E-mail</label>
-            <input type="email" id="materialRegisterFormEmail" class="form-control">
-        </div>
-
-        <!-- Phone number -->
-        <div class="md-form">
-            <label for="materialRegisterFormPhone"class="text-info">Phone number</label>
-            <input type="number" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
-        </div>
-        <!-- Address -->
-        <div class="md-form">
-            <label for="materialRegisterFormPhone"class="text-info">Address</label>
-            <textarea  id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
-            </textarea>     
-        </div>   
-
-        <!-- Newsletter -->
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
-            <label class="form-check-label" for="materialRegisterFormNewsletter"class="text-info">Subscribe to our newsletter</label>
-        </div>
-
-        <!-- Sign up button -->
-        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign in</button>
-    </form>
-    <!-- Form -->
-
-</div>
-
-</div>
-<!-- Material form register -->
-        </div>
         </div>
     </div>
 </section>

@@ -5,7 +5,7 @@
 <div class="col-md-3">
 <div class="ftco-footer-widget mb-4">
 <h2><a class="navbar-brand" href="<?php echo base_url();?>index.php/welcome"><i class="flaticon-university"></i>NEW HORIZON <br><small>ACADEMY</small></a></h2>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<p>An academy is an institution of secondary education, higher learning, research, or honorary membership.</p>
 <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -14,6 +14,7 @@
 <!-- hitwebcounter Code START -->
 <div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-8z1yADA36a127Db3-92.gif' border='0'
  alt='web counter free'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=8z1yADA36a127Db3'></script>
+ Your Visitor:-
 </div> 
 </div>
 </div>
@@ -21,7 +22,7 @@
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">Recent Blog</h2>
 <div class="block-21 mb-4 d-flex">
-<a class="blog-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/image_1.jpg);"></a>
+<a class="blog-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/nha2.jpeg);"></a>
 <div class="text">
 <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
 <div class="meta">
@@ -32,7 +33,7 @@
 </div>
 </div>
 <div class="block-21 mb-4 d-flex">
-<a class="blog-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/image_2.jpg);"></a>
+<a class="blog-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/nha9.jpeg);"></a>
 <div class="text">
 <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
 <div class="meta">
@@ -63,15 +64,15 @@
 <ul>
 <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
 <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-<li><a href="#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="e0898e868fa0998f9592848f8d81898ece838f8d">[email&#160;protected]</span></span></a></li>
+<li><a href="#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="e0898e868fa0998f9592848f8d81898ece838f8d">[&#160;academynewhorizon@gmail.com]</span></span></a></li>
 </ul>
-</div>
-</div>
-</div>
-</div>
 <div class="row">
 <div class="col-md-12 text-center">
 <div class="mapouter"><div class="gmap_canvas"><iframe width="183" height="96" id="gmap_canvas" src="https://maps.google.com/maps?q=%20New%20horizon%20academy%20gha&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:96px;width:183px;}.gmap_canvas {overflow:hidden;background:none!important;height:96px;width:183px;}</style></div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

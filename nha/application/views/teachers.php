@@ -4,148 +4,168 @@
 
 
 <div class="hero-wrap"
-    style="background-image: url('<?php echo base_url();?>assets/images/bg_1.jpg'); background-attachment:fixed;">
+    style="background-image: url('<?php echo base_url();?>assets/images/nha_3.jpg'); background-attachment:fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate text-center">
-                <h1 class="mb-4">No Nation Can Prosper In Life Without Education</h1>
-                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply Now</a> 
-                <a href="<?php echo base_url();?>index.php/welcome/courses"class="btn btn-secondary px-4 py-3">View Courses</a></p>
+                <h1 class="mb-4"style="font-family:Average">No Nation Can Prosper In Life Without Education</h1>
+                <p><a href="<?php echo base_url();?>index.php/welcome/apply" class="btn btn-primary px-4 py-3">Apply
+                        Now</a>
+                    <a href="<?php echo base_url();?>index.php/welcome/courses" class="btn btn-secondary px-4 py-3">View
+                        Courses</a></p>
             </div>
         </div>
     </div>
 </div>
 <section class="ftco-section bg-light">
-<div class="container">
-    <h2 align="center">Our Teachers</h2>
-</br>
-    <div class="row">
-    <div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-   </div>
+    <div class="container"style="font-family:Average">
+        <h2 align="center">Our Teachers</h2>
+        </br>
+        <div class="row">
+            <div class="col-md-4">
+              
 
-<div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-   </div>
-   <div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-   </div>
-</div>
-</div>
-<div class="container">
- 
-</br>
-    <div class="row">
-    <div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-   </div>
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
 
-<div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-   </div>
-   <div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-   </div>
-</div>
-</div>
-<div class="container">
-    <h2 align="center">Our Teachers</h2>
-</br>
-    <div class="row">
-    <div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-  </div>
-   </div>
+            <div class="col-md-4">
+                
 
-<div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+            
+
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-   </div>
-   <div class="col-md-4">
-  <h2>Card Image</h2>
- 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">John Doe</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
+    <div class="container"style="font-family:Average">
+
+        </br>
+        <div class="row">
+            <div class="col-md-4">
+              
+
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                
+
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                
+
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-   </div>
-</div>
-</div>
+    <div class="container"style="font-family:Average">
+        
+        </br>
+        <div class="row">
+            <div class="col-md-4">
+            
+
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                
+
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary">Contect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+               
+
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="<?php echo base_url();?>assets/images/person_1.jpg" alt="Card image"
+                        style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                        </p>
+                        <a href="#" class="btn btn-primary"> Contect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
